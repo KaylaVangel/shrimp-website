@@ -22,13 +22,15 @@ const Navigationbar = () => {
           <NavDropdown title="Store" id="navbarScrollingDropdown">
             <Link href="/store/plants" passHref><NavDropdown.Item>Plants</NavDropdown.Item></Link>
             <NavDropdown.Divider />
-            <Link href="/store/caridina" passHref><NavDropdown.Item>
+            <Link href="/store/shrimp" passHref><NavDropdown.Item>
               Caridina
             </NavDropdown.Item></Link>
             <NavDropdown.Divider />
-            <Link href="3d"><NavDropdown.Item>
-              3D Printed Acessorites
+            <Link href="/store/accessories" passHref><NavDropdown.Item>
+              3D Printed Accessories
             </NavDropdown.Item></Link>
+            <NavDropdown.Divider />
+            <Link href="/store/all" passHref><NavDropdown.Item>All Products</NavDropdown.Item></Link>
           </NavDropdown>
          <Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>
         </Nav>

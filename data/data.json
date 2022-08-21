@@ -1,0 +1,77 @@
+{
+  "products": {
+    "shrimp": [
+      {
+        "name": "Blue Bolt",
+        "description": "Blue",
+        "quantity": 20,
+        "parameters": { "water": "yes", "food": "yes" },
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      },
+      {
+        "name": "Blue Bolt",
+        "description": "Blue",
+        "quantity": 20,
+        "parameters": { "water": "yes", "food": "yes" },
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      },
+      {
+        "name": "Blue Bolt",
+        "description": "Blue",
+        "quantity": 20,
+        "parameters": { "water": "yes", "food": "yes" },
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      },
+      {
+        "name": "Blue Bolt",
+        "description": "Blue",
+        "quantity": 20,
+        "parameters": { "water": "yes", "food": "yes" },
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      }
+    ],
+    "plants": [
+      {
+        "name": "Amazon Sword",
+        "description": "Sharp",
+        "parameters": { "water": "yes", "food": "yes" },
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      },
+      {
+        "name": "Amazon Sword",
+        "description": "Sharp",
+        "parameters": { "water": "yes", "food": "yes" },
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      },
+      {
+        "name": "Amazon Sword",
+        "description": "Sharp",
+        "parameters": { "water": "yes", "food": "yes" },
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      },
+      {
+        "name": "Amazon Sword",
+        "description": "Sharp",
+        "parameters": { "water": "yes", "food": "yes" },
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      }
+    ],
+    "3d": [
+      {
+        "name": "Cave",
+        "description": "Cavey",
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      },
+      {
+        "name": "Cave",
+        "description": "Cavey",
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      },
+      {
+        "name": "Cave",
+        "description": "Cavey",
+        "image": { "src": "/blue.jpg", "alt": "blue" }
+      }
+    ]
+  }
+}
