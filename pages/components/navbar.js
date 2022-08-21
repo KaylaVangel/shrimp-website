@@ -8,9 +8,9 @@ import Link from 'next/link';
 
 const Navigationbar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+  <Navbar bg="light" expand="lg">
     <Container fluid>
-      <Navbar.Brand href="#">Kayla's Cardinas</Navbar.Brand>
+      <Link href="/" passHref><Navbar.Brand>Kayla's Cardinas</Navbar.Brand></Link>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav

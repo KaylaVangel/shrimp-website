@@ -6,7 +6,10 @@ import React from 'react'
 
 function All() {
   return (
-    <div>All Products</div>
+    <>
+    <h1>All Products</h1>
+    <StoreLayout/>
+    </>
   )
 }
 
