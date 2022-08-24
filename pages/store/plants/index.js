@@ -1,15 +1,14 @@
 import data from "../../../data/data.json";
 import StoreLayout from "../../components/store-layout.js";
 
-import React from 'react'
-
-function Plants() {
+const Plants = () => {
   return (
-    <>
+  <>
       <h1>Plants</h1>
-      <StoreLayout/>
+      <StoreLayout products={data.products.plants}/>
+
     </>
-  )
+  );
 }
 
-export default Plants
+export default Plants;

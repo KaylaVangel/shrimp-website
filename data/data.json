@@ -56,7 +56,7 @@
         "image": { "src": "/blue.jpg", "alt": "blue" }
       }
     ],
-    "3d": [
+    "accessories": [
       {
         "name": "Cave",
         "description": "Cavey",

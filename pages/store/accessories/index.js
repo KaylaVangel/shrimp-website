@@ -5,7 +5,8 @@ function Accessories() {
   return (
     <>
     <h1>3D Printed Aquarium Accessories</h1>
-    <StoreLayout/>
+    <StoreLayout products={data.products.accessories}/>
+
     </>
   )
 }

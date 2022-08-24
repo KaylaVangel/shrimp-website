@@ -7,7 +7,8 @@ function Shrimp () {
   return (
     <>
       <h1>Cardina Shrimp</h1>
-      <StoreLayout/>
+      <StoreLayout products={data.products.shrimp}/>
+      
     </>
   )
 }

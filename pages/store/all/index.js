@@ -1,14 +1,16 @@
 import data from "../../../data/data.json";
 import StoreLayout from "../../components/store-layout.js";
 
-
-import React from 'react'
-
 function All() {
+  let AllProducts = [];
+  Object.keys(data.products).forEach (p => {
+    AllProducts=AllProducts.concat(data.products[p])
+  })
+ 
   return (
     <>
     <h1>All Products</h1>
-    <StoreLayout/>
+    <StoreLayout products={AllProducts}/>
     </>
   )
 }
