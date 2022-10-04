@@ -23,7 +23,7 @@ const Navigationbar = () => {
             <Link href="/store/plants" passHref><NavDropdown.Item>Plants</NavDropdown.Item></Link>
             <NavDropdown.Divider />
             <Link href="/store/shrimp" passHref><NavDropdown.Item>
-              Caridina
+              Shrimp
             </NavDropdown.Item></Link>
             <NavDropdown.Divider />
             <Link href="/store/accessories" passHref><NavDropdown.Item>

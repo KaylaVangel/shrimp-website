@@ -1,14 +1,20 @@
+import data from '../../data/data.json'
+import Product from './product.js'
+import Container from 'react-bootstrap/Container'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
-import data from '../../data/data.json';
-import Product from './product.js';
-
-function StoreLayout({products}) {
+function StoreLayout ({ products }) {
   return (
-    <>
-     {products.map(p => {
-      return <Product product={p}/>
-     })}
-    </>
+    <Container>
+      <Col>
+        <Row>
+          {products.map(p => {
+            return <Product product={p} />
+          })}
+        </Row>
+      </Col>
+    </Container>
   )
 }
 

@@ -8,11 +8,50 @@
         "parameters": { "Substrate": "Fluval plant and shrimp stratum",
         "Temperature": "68°F-74°F",
         "TDS": "~100",
-        "Water": "Distilled or RO water remineralized with SaltyShrimp",
+        "Water": "Distilled or RO water remineralized with SaltyShrimp Bee Shrimp Mineral GH+",
         "pH": "5.5-6.7",
         "Gh": "3-6",
         "Kh": "0-1"},
-        "image": { "src": "/blue.jpg", "alt": "blue" }
+        "image": { "src": "/images/BB.jpg", "alt": "blue shrimp" }
+      },
+      {
+        "name": "Golden Red Calceos",
+        "description": "Blue",
+        "quantity": 20,
+        "parameters": { "Substrate": "Fluval plant and shrimp stratum",
+        "Temperature": "68°F-74°F",
+        "TDS": "~100",
+        "Water": "Distilled or RO water remineralized with SaltyShrimp Bee Shrimp Mineral GH+",
+        "pH": "5.5-6.7",
+        "Gh": "3-6",
+        "Kh": "0-1"},
+        "image": { "src": "/images/calceo.jpg", "alt": "calceo shrimp" }
+      },
+      {
+        "name": "OE Red Tiger Blue Body",
+        "description": "Blue",
+        "quantity": 20,
+        "parameters": { "Substrate": "Fluval plant and shrimp stratum",
+        "Temperature": "68°F-74°F",
+        "TDS": "~100",
+        "Water": "Distilled or RO water remineralized with SaltyShrimp Bee Shrimp Mineral GH+",
+        "pH": "5.5-6.7",
+        "Gh": "3-6",
+        "Kh": "0-1"},
+        "image": { "src": "/images/OEtiger.jpg", "alt": "OE tiger shrimp" }
+      },
+      {
+        "name": "Blue Jelly (Neocaridina)",
+        "description": "Blue",
+        "quantity": 20,
+        "parameters": { "Substrate": "Innert Substrate",
+        "Temperature": "65°F-78°F",
+        "TDS": "~170",
+        "Water": "Distilled or RO water remineralized with SaltyShrimp Shrimp Mineral GH/KH+",
+        "pH": "5.5-6.7",
+        "Gh": "3-6",
+        "Kh": "0-1"},
+        "image": { "src": "/images/bluejelly.jpg", "alt": "bluejelly shrimp" }
       },
       {
         "name": "Golden Bee",
@@ -21,11 +60,11 @@
         "parameters": { "Substrate": "Fluval plant and shrimp stratum",
         "Temperature": "68°F-74°F",
         "TDS": "~100",
-        "Water": "Distilled or RO water remineralized with SaltyShrimp",
+        "Water": "Distilled or RO water remineralized with SaltyShrimp Bee Shrimp Mineral GH+",
         "pH": "5.5-6.7",
         "Gh": "3-6",
         "Kh": "0-1"},
-        "image": { "src": "/blue.jpg", "alt": "blue" }
+        "image": { "src": "/images/goldenbee.jpg", "alt": "gold shrimp" }
       },
       {
         "name": "Crystal Red (CRS)",
@@ -34,11 +73,11 @@
         "parameters": { "Substrate": "Fluval plant and shrimp stratum",
         "Temperature": "68°F-74°F",
         "TDS": "~100",
-        "Water": "Distilled or RO water remineralized with SaltyShrimp",
+        "Water": "Distilled or RO water remineralized with SaltyShrimp Bee Shrimp Mineral GH+",
         "pH": "5.5-6.7",
         "Gh": "3-6",
         "Kh": "0-1"},
-        "image": { "src": "/blue.jpg", "alt": "blue" }
+        "image": { "src": "/images/CRS.jpg", "alt": "crystal red shrimp" }
       },
       {
         "name": "Black King Kong (BKK)",
@@ -47,11 +86,11 @@
         "parameters": { "Substrate": "Fluval plant and shrimp stratum",
         "Temperature": "68°F-74°F",
         "TDS": "~100",
-        "Water": "Distilled or RO water remineralized with SaltyShrimp",
+        "Water": "Distilled or RO water remineralized with SaltyShrimp Bee Shrimp Mineral GH+",
         "pH": "5.5-6.7",
         "Gh": "3-6",
         "Kh": "0-1"},
-        "image": { "src": "/blue.jpg", "alt": "blue" }
+        "image": { "src": "/images/BKK.jpg", "alt": "black and white shrimp" }
       },
       {
         "name": "Sulawesi Cardinal Dennerli (white sock)",
@@ -64,7 +103,7 @@
         "pH": "~7.8-8.2",
         "Gh": "6-8",
         "Kh": "4-8"},
-        "image": { "src": "/blue.jpg", "alt": "blue" }
+        "image": { "src": "/images/sulawesi.jpg", "alt": "sulawesi shrimp" }
       }
     ],
     "plants": [

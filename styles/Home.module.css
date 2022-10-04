@@ -2,6 +2,10 @@
   padding: 0 2rem;
 }
 
+.cards{
+  flex-wrap: wrap;
+  flex-direction: row;
+}
 .main {
   min-height: 100vh;
   padding: 4rem 0;
