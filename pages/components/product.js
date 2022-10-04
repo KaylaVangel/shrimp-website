@@ -8,9 +8,9 @@ function Product({product}) {
     <Card style={{ width: '18rem' }}>
       <Card.Img variant="top" src="holder.js/100px180" />
       <Card.Body>
-        <Card.Title>title={product.name}</Card.Title>
+        <Card.Title>{product.name}</Card.Title>
         <Card.Text>
-          description={product.description}
+          In stock:{product.quantity}
         </Card.Text>
         <Button variant="primary">More info</Button>
       </Card.Body>

@@ -15,10 +15,11 @@ a {
   box-sizing: border-box;
 }
 
-h1 {
+h1, p {
   text-align: center;
   
 }
+
 
 @media (prefers-color-scheme: dark) {
   html {
