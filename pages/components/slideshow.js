@@ -16,7 +16,7 @@ export default function Slideshow() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="../../images/calceo.jpg"
+                src="../../images/sulawesi.jpg"
                 alt="First slide"
               />
               <Carousel.Caption>
@@ -32,19 +32,19 @@ export default function Slideshow() {
               />
       
               <Carousel.Caption>
-                <h3>Second slide label</h3>
+                <h3>Golden Calceo</h3>
                 
               </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="../../images/calceo.jpg"
+                src="../../images/OEtiger.jpg"
                 alt="Third slide"
               />
       
               <Carousel.Caption>
-                <h3>Third slide label</h3>
+                <h3>OE Red Tiger Blue Body</h3>
               </Carousel.Caption>
             </Carousel.Item>
           </Carousel>

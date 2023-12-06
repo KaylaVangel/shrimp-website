@@ -20,12 +20,14 @@ const Navigationbar = () => {
         >
           <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
           <NavDropdown title="Store" id="navbarScrollingDropdown">
-            <Link href="/store/plants" passHref><NavDropdown.Item>Plants</NavDropdown.Item></Link>
-            <NavDropdown.Divider />
             <Link href="/store/shrimp" passHref><NavDropdown.Item>
               Shrimp
             </NavDropdown.Item></Link>
             <NavDropdown.Divider />
+            {/* <Link href="/store/plants" passHref><NavDropdown.Item>Plants</NavDropdown.Item></Link>
+            <NavDropdown.Divider />
+            <Link href="/store/frags" passHref><NavDropdown.Item>Frags</NavDropdown.Item></Link>
+            <NavDropdown.Divider /> */}
             <Link href="/store/accessories" passHref><NavDropdown.Item>
               3D Printed Accessories
             </NavDropdown.Item></Link>
@@ -33,6 +35,7 @@ const Navigationbar = () => {
             <Link href="/store/all" passHref><NavDropdown.Item>All Products</NavDropdown.Item></Link>
           </NavDropdown>
          <Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>
+         <Link href="/care" passHref><Nav.Link>Shrimp Care</Nav.Link></Link>
         </Nav>
         <Form className="d-flex">
           <Form.Control

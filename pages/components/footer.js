@@ -4,7 +4,7 @@ function Footer () {
   return (
     <div>
       <p>Please contact me with any contructive criticism for the site.</p>
-      <a href='Kvangel1638@gmail.com'>Send Email</a>
+      <a href="mailto:Kvangel1638@gmail.com">Contact Me</a>
     </div>
   )
 }
