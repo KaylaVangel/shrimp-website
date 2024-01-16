@@ -39,7 +39,7 @@ export default function Slideshow() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="../../images/OEtiger.jpg"
+                src="../../images/OEtigerslide.jpg"
                 alt="Third slide"
               />
       

@@ -4,7 +4,7 @@
       {
         "name": "Blue Bolt",
         "description": "Blue",
-        "quantity": 20,
+        "quantity": 0,
         "parameters": {
           "Substrate": "Fluval plant and shrimp stratum",
           "Temperature": "68°F-74°F",
@@ -34,11 +34,11 @@
           "Gh": "3-6",
           "Kh": "0-1"
         },
-        "image": { "src": "/images/calceo.jpg", "alt": "calceo shrimp" },
+        "image": { "src": "/images/calceostore.jpg", "alt": "calceo shrimp" },
         "moreInfo": {
           "seller": "Kayla.vangel@comcast.net",
           "availability": 20,
-          "cost": "$5"
+          "cost": "$8"
         }
       },
       {
@@ -58,7 +58,7 @@
         "moreInfo": {
           "seller": "Kayla.vangel@comcast.net",
           "availability": 20,
-          "cost": "$5"
+          "cost": "$8"
         }
       },
       {
@@ -78,13 +78,33 @@
         "moreInfo": {
           "seller": "Kayla.vangel@comcast.net",
           "availability": 20,
-          "cost": "$5"
+          "cost": "$4"
+        }
+      },
+      {
+        "name": "Snowball (Neocaridina)",
+        "description": "white",
+        "quantity": 0,
+        "parameters": {
+          "Substrate": "Innert Substrate",
+          "Temperature": "65°F-78°F",
+          "TDS": "~170",
+          "Water": "Distilled or RO water remineralized with SaltyShrimp Shrimp Mineral GH/KH+",
+          "pH": "5.5-6.7",
+          "Gh": "3-6",
+          "Kh": "0-1"
+        },
+        "image": { "src": "/images/bluejelly.jpg", "alt": "bluejelly shrimp" },
+        "moreInfo": {
+          "seller": "Kayla.vangel@comcast.net",
+          "availability": 20,
+          "cost": "$4"
         }
       },
       {
         "name": "Golden Bee",
         "description": "White/off-white",
-        "quantity": 0,
+        "quantity": 5,
         "parameters": {
           "Substrate": "Fluval plant and shrimp stratum",
           "Temperature": "68°F-74°F",
@@ -104,7 +124,7 @@
       {
         "name": "Crystal Red (CRS)",
         "description": "Blue",
-        "quantity": 80,
+        "quantity": 20,
         "parameters": {
           "Substrate": "Fluval plant and shrimp stratum",
           "Temperature": "68°F-74°F",
@@ -124,7 +144,7 @@
       {
         "name": "Shadow Panda",
         "description": "Blue",
-        "quantity": 20,
+        "quantity": 10,
         "parameters": {
           "Substrate": "Fluval plant and shrimp stratum",
           "Temperature": "68°F-74°F",
@@ -134,7 +154,7 @@
           "Gh": "3-6",
           "Kh": "0-1"
         },
-        "image": { "src": "/images/BKK.jpg", "alt": "black and white shrimp" },
+        "image": { "src": "/images/shadowpanda.jpg", "alt": "black and white shrimp" },
         "moreInfo": {
           "seller": "Kayla.vangel@comcast.net",
           "availability": 20,
@@ -154,17 +174,17 @@
           "Gh": "3-6",
           "Kh": "0-1"
         },
-        "image": { "src": "/images/BKK.jpg", "alt": "black and white shrimp" },
+        "image": { "src": "/images/paracaradina.jpg", "alt": "black and white shrimp" },
         "moreInfo": {
           "seller": "Kayla.vangel@comcast.net",
           "availability": 20,
-          "cost": "$5"
+          "cost": "$8"
         }
       },
       {
         "name": "Sulawesi Cardinal Dennerli (white sock)",
         "description": "Red with white feet",
-        "quantity": 20,
+        "quantity": 10,
         "parameters": {
           "Substrate": "Innert Substrate",
           "Temperature": "80-85°F",
@@ -174,93 +194,51 @@
           "Gh": "6-8",
           "Kh": "4-8"
         },
-        "image": { "src": "/images/sulawesi.jpg", "alt": "sulawesi shrimp" },
+        "image": { "src": "/images/sulawesistore.jpg", "alt": "sulawesi shrimp" },
         "moreInfo": {
           "seller": "Kayla.vangel@comcast.net",
           "availability": 20,
-          "cost": "$5"
+          "cost": "$10"
         }
       }
     ],
     "plants": [
-      {
-        "name": "Amazon Sword",
-        "description": "Sharp",
-        "parameters": { "water": "yes", "food": "yes" },
-        "image": { "src": "/blue.jpg", "alt": "blue" }
-      },
-      {
-        "name": "Amazon Sword",
-        "description": "Sharp",
-        "parameters": { "water": "yes", "food": "yes" },
-        "image": { "src": "/blue.jpg", "alt": "blue" }
-      },
-      {
-        "name": "Amazon Sword",
-        "description": "Sharp",
-        "parameters": { "water": "yes", "food": "yes" },
-        "image": { "src": "/blue.jpg", "alt": "blue" }
-      },
-      {
-        "name": "Amazon Sword",
-        "description": "Sharp",
-        "parameters": { "water": "yes", "food": "yes" },
-        "image": { "src": "/blue.jpg", "alt": "blue" }
-      }
     ],
     "frags": [
-      {
-        "name": "Amazon Sword",
-        "image": { "src": "/blue.jpg", "alt": "blue" },
-        "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
-          "availability": 20,
-          "cost": "$5"
-        }
-      },
-      {
-        "name": "Amazon Sword",
-        "image": { "src": "/blue.jpg", "alt": "blue" },
-        "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
-          "availability": 20,
-          "cost": "$5"
-        }
-      },
-      {
-        "name": "Amazon Sword",
-        "image": { "src": "/blue.jpg", "alt": "blue" },
-        "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
-          "availability": 20,
-          "cost": "$5"
-        }
-      },
-      {
-        "name": "Amazon Sword",
-        "image": { "src": "/blue.jpg", "alt": "blue" },
-        "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
-          "availability": 20,
-          "cost": "$5"
-        }
-      }
     ],
     "accessories": [
       {
         "name": "Shrimp Cave",
+        "quantity": 20,
         "description": "Cavey",
-        "image": { "src": "/blue.jpg", "alt": "blue" }
+        "image": { "src": "/blue.jpg", "alt": "blue" },
+        "moreInfo": {
+          "seller": "Kayla.vangel@comcast.nest",
+          "availability": 20,
+          "cost": "$5"
+        }
       },
       {
         "name": "Large Shrimp Cave",
+        "quantity": 0,
         "description": "Cavey",
-        "image": { "src": "/blue.jpg", "alt": "blue" }
+        "image": { "src": "/blue.jpg", "alt": "blue" },
+        "moreInfo": {
+          "seller": "Kayla.vangel@comcast.nest",
+          "availability": 20,
+          "cost": "$5"
+        }
       },
       {
         "name": "Cave",
+        "quantity": 20,
         "description": "Cavey",
-        "image": { "src": "/blue.jpg", "alt": "blue" }
+        "image": { "src": "/blue.jpg", "alt": "blue" },
+        "moreInfo": {
+          "seller": "Kayla.vangel@comcast.nest",
+          "availability": 20,
+          "cost": "$5"
+        }
       }
     ]
   },

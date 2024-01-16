@@ -11,7 +11,7 @@ function Care () {
          return (
         <>
 
-          <div>
+          <div className="paragraphFont">
             <br/>
             {type.charAt(0).toUpperCase() + type.slice(1)}:
             <br/>
@@ -29,6 +29,8 @@ function Care () {
             <br/>
             gH: {Gh}
           </div>
+          <br/>
+          <br/>
         </>
          )
          })}

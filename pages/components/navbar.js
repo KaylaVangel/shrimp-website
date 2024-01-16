@@ -8,7 +8,7 @@ import Link from 'next/link';
 
 const Navigationbar = () => {
   return (
-  <Navbar bg="light" expand="lg">
+  <Navbar expand="lg">
     <Container fluid>
       <Link href="/" passHref><Navbar.Brand>Kayla's Cardinas</Navbar.Brand></Link>
       <Navbar.Toggle aria-controls="navbarScroll" />
@@ -34,18 +34,9 @@ const Navigationbar = () => {
             <NavDropdown.Divider />
             <Link href="/store/all" passHref><NavDropdown.Item>All Products</NavDropdown.Item></Link>
           </NavDropdown>
-         <Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>
+         {/*<Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>*/}
          <Link href="/care" passHref><Nav.Link>Shrimp Care</Nav.Link></Link>
         </Nav>
-        <Form className="d-flex">
-          <Form.Control
-            type="search"
-            placeholder="Search"
-            className="me-2"
-            aria-label="Search"
-          />
-          <Button variant="outline-success">Search</Button>
-        </Form>
       </Navbar.Collapse>
     </Container>
   </Navbar>

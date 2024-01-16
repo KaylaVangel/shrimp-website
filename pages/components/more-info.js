@@ -7,7 +7,7 @@ function MoreInfo ({ product }) {
   const {seller, cost} = product.moreInfo;
   return (
     <>
-      <div>
+      <div className="paragraphFont">
         <br/>
         Cost: {cost}
         <br />

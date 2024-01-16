@@ -17,7 +17,10 @@ function Product ({ product }) {
       <Card.Img variant='top' src={product.image.src} />
       <Card.Body>
         <Card.Title>{product.name}</Card.Title>
-        <Card.Text>In stock:{product.quantity}</Card.Text>
+
+        {product.quantity <= 0 && (<Card.Text>Out of stock.</Card.Text>)}
+        
+        {product.quantity > 0 && (<Card.Text>In stock: {product.quantity}</Card.Text>)}
 
         {product.quantity > 0 && (<Button variant='primary' onClick={toggleModel}>More info</Button>)}
 
