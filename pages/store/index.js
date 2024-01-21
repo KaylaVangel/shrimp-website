@@ -6,7 +6,7 @@ function Store() {
   return (
     <>
       <div>index</div>
-      <StoreLayout/>
+      {/* <StoreLayout products={data.products}/> */}
     </>
   );
 }

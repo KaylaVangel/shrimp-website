@@ -4,8 +4,10 @@ import Card from 'react-bootstrap/Card'
 
 
 function MoreInfo ({ product }) {
-  const {seller, cost} = product.moreInfo;
-  return (
+  if (product) {
+    const {seller, cost} = product.moreInfo;
+  }
+  product && (
     <>
       <div className="paragraphFont">
         <br/>

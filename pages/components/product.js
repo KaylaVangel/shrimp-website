@@ -12,7 +12,7 @@ function Product ({ product }) {
     setMoreInfo(!moreInfo);
   }
 
-  return (
+  product && (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant='top' src={product.image.src} />
       <Card.Body>

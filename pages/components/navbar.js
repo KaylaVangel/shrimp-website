@@ -18,24 +18,24 @@ const Navigationbar = () => {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Link href="/" passHref><Nav.Link>Home</Nav.Link></Link>
+          <Nav.Link href="/" passHref>Home</Nav.Link>
           <NavDropdown title="Store" id="navbarScrollingDropdown">
-            <Link href="/store/shrimp" passHref><NavDropdown.Item>
+            <NavDropdown.Item href="/store/shrimp" passHref>
               Shrimp
-            </NavDropdown.Item></Link>
+            </NavDropdown.Item>
             <NavDropdown.Divider />
             {/* <Link href="/store/plants" passHref><NavDropdown.Item>Plants</NavDropdown.Item></Link>
             <NavDropdown.Divider />
             <Link href="/store/frags" passHref><NavDropdown.Item>Frags</NavDropdown.Item></Link>
             <NavDropdown.Divider /> */}
-            <Link href="/store/accessories" passHref><NavDropdown.Item>
+            <NavDropdown.Item href="/store/accessories" passHref>
               3D Printed Accessories
-            </NavDropdown.Item></Link>
+            </NavDropdown.Item>
             <NavDropdown.Divider />
-            <Link href="/store/all" passHref><NavDropdown.Item>All Products</NavDropdown.Item></Link>
+            <NavDropdown.Item href="/store/all" passHref>All Products</NavDropdown.Item>
           </NavDropdown>
          {/*<Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>*/}
-         <Link href="/care" passHref><Nav.Link>Shrimp Care</Nav.Link></Link>
+         <Nav.Link href="/care" passHref>Shrimp Care</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>
