@@ -5,7 +5,7 @@ function Care () {
     return (
       <>
       <h1>Shrimp Care</h1>
-
+      
       {Object.keys(data.parameters).map(type => {
          const {substrate, temperature, TDS, Water, pH, Kh, Gh} = data.parameters[type];
          return (
