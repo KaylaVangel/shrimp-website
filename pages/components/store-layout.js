@@ -9,8 +9,8 @@ function StoreLayout ({ products }) {
     <Container>
       <Col>
         <Row>
-          {products.map(p => {
-            return <Product product={p} />
+          {products.map((p, index) => {
+            return <Product product={p} key={index}/>
           })}
         </Row>
       </Col>

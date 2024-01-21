@@ -10,7 +10,7 @@ const Navigationbar = () => {
   return (
   <Navbar expand="lg">
     <Container fluid>
-      <Link href="/" passHref><Navbar.Brand>Kayla's Cardinas</Navbar.Brand></Link>
+      <Link href="/" passHref><Navbar.Brand>Kayla&apos;s Cardinas</Navbar.Brand></Link>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
