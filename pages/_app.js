@@ -5,8 +5,7 @@ import Layout from "./components/layout";
 import { useSSR } from '@nextui-org/react'
 
 
-
-const MyApp = ({ Component, pageProps }) => {
+function MyApp ({ Component, pageProps }) {
   const { isBrowser } = useSSR();
   return (
     isBrowser && (
