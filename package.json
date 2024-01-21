@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@nextui-org/react": "^2.2.9",
     "@swc/helpers": "^0.5.3",
     "bootstrap": "^5.2.0",
     "next": "13.4.7",
