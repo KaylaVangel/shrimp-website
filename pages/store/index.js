@@ -1,20 +1,17 @@
 import StoreLayout from "../../components/store-layout.js";
 import { promises as fs } from 'fs';
-import { useEffect, useState } from "react";
+
+export async function getStaticProps() {
+  const data = JSON.parse(await fs.readFile(process.cwd() + '/data.json', 'utf8'));
+  return {
+    props: {
+      data,
+    },
+  };
+}
 
 
-const Store = () => {
-  const [data, setData] = useState();
-  useEffect(() => {
-    const getDataFromFile = async () => {
-      const file = await fs.readFile(process.cwd() + '/data.json', 'utf8');
-      setData(JSON.parse(file));
-    };
-    getDataFromFile();
-  }, []);
- 
-
-
+const Store = ({data}) => {
   return (
     <>
       <div>index</div>
