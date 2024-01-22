@@ -10,7 +10,6 @@ function All() {
   return (
     <>
     <h1>All Products</h1>
-    {console.log(AllProducts)}
     <StoreLayout products={AllProducts}/>
     </>
   )

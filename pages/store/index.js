@@ -1,5 +1,6 @@
 import StoreLayout from "../../components/store-layout.js";
 import { promises as fs } from 'fs';
+import { useState, useEffect } from "react";
 
 export async function getStaticProps() {
   const data = JSON.parse(await fs.readFile(process.cwd() + '/data/data.json', 'utf8'));
@@ -15,15 +16,24 @@ export async function getStaticProps() {
 
 
 export default function Store({data}) {
-  let AllProducts = [];
-  Object.keys(data.products).forEach (p => {
-    AllProducts=AllProducts.concat(data.products[p])
-  })
+  const [allProducts, setAllProducts] = useState();
+
+  useEffect(() => {
+    if(data) {
+      setAllProducts([]);
+      Object.keys(data.products).forEach (p => {
+        setAllProducts(allProducts.concat(data.products[p]))
+      })
+    }
+  
+   }, [data])
+
+  
 
   return (
     <>
       <div>index</div>
-      {data && (<StoreLayout products={AllProducts}/>)}
+      {data && (<StoreLayout products={allProducts}/>)}
     </>
   );
 }
