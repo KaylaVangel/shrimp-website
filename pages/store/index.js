@@ -19,16 +19,11 @@ export default function Store({data}) {
   const [allProducts, setAllProducts] = useState();
 
   useEffect(() => {
-    if(data) {
-      setAllProducts([]);
-      Object.keys(data.products).forEach (p => {
-        setAllProducts(allProducts.concat(data.products[p]))
-      })
-    }
-  
+    setAllProducts([]);
+    Object.keys(data.products).forEach (p => {
+      setAllProducts(allProducts.concat(data.products[p]))
+    })
    }, [data])
-
-  
 
   return (
     <>
