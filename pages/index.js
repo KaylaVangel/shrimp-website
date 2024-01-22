@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Slideshow from './components/slideshow.js';
+import Slideshow from '../components/slideshow.js';
 
 export default function Home() {
   return (

@@ -1,14 +1,26 @@
-import data from "../../data/data.json";
-import StoreLayout from "../components/store-layout.js";
+import StoreLayout from "../../components/store-layout.js";
+import { promises as fs } from 'fs';
+import { useEffect, useState } from "react";
 
 
-function Store() {
+const Store = () => {
+  const [data, setData] = useState();
+  useEffect(() => {
+    const getDataFromFile = async () => {
+      const file = await fs.readFile(process.cwd() + '/data.json', 'utf8');
+      setData(JSON.parse(file));
+    };
+    getDataFromFile();
+  }, []);
+ 
+
+
   return (
     <>
       <div>index</div>
-      {/* <StoreLayout products={data.products}/> */}
+      {data && (<StoreLayout products={data.products}/>)}
     </>
   );
 }
 
-export default Store
+module.exports = Store
