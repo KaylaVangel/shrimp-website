@@ -12,7 +12,6 @@ function Product ({ product }) {
     setMoreInfo(!moreInfo);
   }
 
-  product && (
     <Card style={{ width: '18rem' }}>
       <Card.Img variant='top' src={product.image.src} />
       <Card.Body>
@@ -27,7 +26,6 @@ function Product ({ product }) {
         {moreInfo && (<MoreInfo product={product} />)}
       </Card.Body>
     </Card>
-  )
 }
 
 export default Product

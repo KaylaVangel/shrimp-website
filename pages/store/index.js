@@ -12,7 +12,6 @@ export default function Store({data}) {
   Object.keys(data.products).forEach (p => {
     allProducts=allProducts.concat(data.products[p])
   })
-  console.log(allProducts);
   return (
     <>
       <div>index</div>
