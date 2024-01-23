@@ -6,7 +6,8 @@ export async function getData() {
     const res = await fs.readFile(path.resolve(process.cwd(), "./data/data.json"), err => {});
     const data = JSON.parse(res)
 
-    console.log(data)
+    console.log("ANYTHING");
+    console.log(data);
    
-    return data
+    return data;
   }
