@@ -7,7 +7,7 @@ export async function getServerSideProps() {
   return {props: {data}};
 };
   
-export default function Store() {
+export default function Store({data}) {
   return (
     <>
       <div>index</div>
