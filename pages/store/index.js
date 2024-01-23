@@ -7,6 +7,10 @@ export async function getServerSideProps() {
 };
   
 export default function Store({data}) {
+  let allProducts = [];
+  Object.keys(data.products).forEach (p => {
+    allProducts=allProducts.concat(data.products[p])
+  })
   return (
     <>
       <div>index</div>
