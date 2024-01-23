@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
 import MoreInfo from './more-info.js'
@@ -8,14 +8,22 @@ import MoreInfo from './more-info.js'
 function Product ({ product }) {
   const [moreInfo, setMoreInfo] = useState(false);
 
+  const [item, setItem] = useState()
+
+  useEffect(() => {
+    setItem(product);
+  }, [])
+
+
   const toggleModel = () => {
     setMoreInfo(!moreInfo);
   }
 
     <Card style={{ width: '18rem' }}>
-      <Card.Img variant='top' src={product.image.src} />
+      HELP
+      {product.image && (<Card.Img variant='top' src={product.image.src} />)}
       <Card.Body>
-        <Card.Title>{product.name}</Card.Title>
+        {product.name && <Card.Title>{product.name}</Card.Title>}
 
         {product.quantity <= 0 && (<Card.Text>Out of stock.</Card.Text>)}
         

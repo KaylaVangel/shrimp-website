@@ -2,14 +2,15 @@ import "bootstrap/dist/css/bootstrap.css";
 import '../styles/globals.css';
 import '../styles/index.css';
 import Layout from "../components/layout";
-
-
-function MyApp ({ Component, pageProps }) {
+ 
+const MyApp = ({ Component, pageProps }) => {
   return (
-    <Layout>
+    <>
+      <Layout>
       <Component {...pageProps} />
-    </Layout>
-    )
+      </Layout>
+    </>
+  )
 }
 
 export default MyApp

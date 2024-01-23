@@ -10,7 +10,7 @@ const Navigationbar = () => {
   return (
   <Navbar expand="lg">
     <Container fluid>
-      <Link href="/" passHref><Navbar.Brand>Kayla&apos;s Cardinas</Navbar.Brand></Link>
+      <Link href="/" ><Navbar.Brand>Kayla&apos;s Cardinas</Navbar.Brand></Link>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -18,24 +18,24 @@ const Navigationbar = () => {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Nav.Link href="/" passHref>Home</Nav.Link>
+          <Nav.Link href="/" >Home</Nav.Link>
           <NavDropdown title="Store" id="navbarScrollingDropdown">
-            <NavDropdown.Item href="/store/shrimp" passHref>
+            <NavDropdown.Item href="/store/shrimp" >
               Shrimp
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            {/* <Link href="/store/plants" passHref><NavDropdown.Item>Plants</NavDropdown.Item></Link>
+            {/* <Link href="/store/plants" ><NavDropdown.Item>Plants</NavDropdown.Item></Link>
             <NavDropdown.Divider />
-            <Link href="/store/frags" passHref><NavDropdown.Item>Frags</NavDropdown.Item></Link>
+            <Link href="/store/frags" ><NavDropdown.Item>Frags</NavDropdown.Item></Link>
             <NavDropdown.Divider /> */}
-            <NavDropdown.Item href="/store/accessories" passHref>
+            <NavDropdown.Item href="/store/accessories" >
               3D Printed Accessories
             </NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/store/all" passHref>All Products</NavDropdown.Item>
+            <NavDropdown.Item href="/store/all" >All Products</NavDropdown.Item>
           </NavDropdown>
-         {/*<Link href="/about" passHref><Nav.Link>About</Nav.Link></Link>*/}
-         <Nav.Link href="/care" passHref>Shrimp Care</Nav.Link>
+         {/*<Link href="/about" ><Nav.Link>About</Nav.Link></Link>*/}
+         <Nav.Link href="/care" >Shrimp Care</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

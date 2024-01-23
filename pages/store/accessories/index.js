@@ -1,4 +1,3 @@
-import { getData } from "../../../util/index.js";
 import StoreLayout from "../../../components/store-layout.js";
 
 function Accessories() {
