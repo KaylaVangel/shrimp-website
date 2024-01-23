@@ -1,4 +1,4 @@
-import data from '../data/data.json'
+import { getData } from "../util/index.js";
 
 
 function Care () {
@@ -6,7 +6,7 @@ function Care () {
       <>
       <h1>Shrimp Care</h1>
       
-      {Object.keys(data.parameters).map(type => {
+      {/* {Object.keys(data.parameters).map(type => {
          const {substrate, temperature, TDS, Water, pH, Kh, Gh} = data.parameters[type];
          return (
         <>
@@ -33,7 +33,7 @@ function Care () {
           <br/>
         </>
          )
-         })}
+         })} */}
       </>
       
     )
