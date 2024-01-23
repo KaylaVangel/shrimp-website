@@ -15,7 +15,7 @@ export default function Store({data}) {
   return (
     <>
       <div>index</div>
-      {data && (<StoreLayout products={allProducts}/>)}
+      <StoreLayout products={allProducts}/>
     </>
   );
 }
