@@ -4,19 +4,22 @@ function MoreInfo ({ product }) {
   const [productInfo, setProductInfo] = useState()
   
   useEffect(() => {
-    setProductInfo([...product.moreInfo])
+    setProductInfo(product.moreInfo)
   }, [])
 
-  productInfo && (
-    <>
-      <div className="paragraphFont">
-        <br/>
-        Cost: {productInfo.cost}
-        <br />
-        <a href="mailto:{productInfo.seller}">Contact</a>
-      </div>
-    </>
-  )
+  if (!productInfo) return <></>
+  else {
+    return (
+      <>
+        <div className="paragraphFont">
+          <br/>
+          Cost: {productInfo.cost}
+          <br />
+          <a href="mailto:{productInfo.seller}">Contact</a>
+        </div>
+      </>
+    )
+  }
 }
 
 export default MoreInfo

@@ -32,7 +32,7 @@ const Product = ({ p }) => {
 
             {product.quantity > 0 && (<Button variant='primary' onClick={toggleModel}>More info</Button>)}
 
-            {moreInfo && (<MoreInfo p={product} />)}
+            {moreInfo && (<MoreInfo product={product} />)}
           </Card.Body>
         </Card>
       </>
