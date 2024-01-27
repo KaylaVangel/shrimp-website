@@ -1,17 +1,21 @@
-import { getData } from "../util/index.js";
-
+import { useState, useEffect } from 'react';
+import data from '../data/data.json'
 
 function Care () {
+  const [parameters, setParameters] = useState([])
+
+  useEffect(() => {
+    setParameters(data.parameters)
+  }, [])
+
     return (
       <>
       <h1>Shrimp Care</h1>
       
-      {/* {Object.keys(data.parameters).map(type => {
+      {Object.keys(parameters).map((type, index) => {
          const {substrate, temperature, TDS, Water, pH, Kh, Gh} = data.parameters[type];
          return (
-        <>
-
-          <div className="paragraphFont">
+          <div className="paragraphFont" key={index}>
             <br/>
             {type.charAt(0).toUpperCase() + type.slice(1)}:
             <br/>
@@ -29,11 +33,8 @@ function Care () {
             <br/>
             gH: {Gh}
           </div>
-          <br/>
-          <br/>
-        </>
          )
-         })} */}
+         })}
       </>
       
     )

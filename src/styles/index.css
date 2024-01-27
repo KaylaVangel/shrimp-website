@@ -190,6 +190,10 @@ a {
   margin-left: 0.5rem;
 }
 
+#main {
+  padding-top: 4rem;
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;

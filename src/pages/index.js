@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Slideshow from '../components/slideshow.js';
 
 export default function Home() {
