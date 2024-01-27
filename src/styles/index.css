@@ -157,26 +157,24 @@ a {
   color: #F28482;
 }
 
-.card .card-body .btn {
-  display: block;
-  margin:1rem auto;
-  color: #fffdfa;
-}
-
 .card .card-title {
   text-align: center;
   color: #8d5857;
 }
 
-.btn-primary {
-  background-color:#F5CAC3;
+.card .card-body .btn {
+  display: block;
+  margin:1rem auto;
+  color: #fffdfa;
+  background-color:#8d5857;
   border-color: black;
 }
 
-.btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #8d5857 !important;
+.card .card-body .btn:hover, .card .card-body .btn:focus, .card .card-body .btn:active {
+  background-color: #F5CAC3 !important;
+  color:black;
+  border-color: black;
 }
-
 
 .navbar {
   position: fixed;
