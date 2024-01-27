@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { useState, useEffect } from 'react';
-import data from '..//data/data.json'
+import data from '../data/data.json'
 
 const StoreLayout = ({ type }) => {
   const [products, setProducts] = useState();
