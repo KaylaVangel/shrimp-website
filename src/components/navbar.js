@@ -27,7 +27,7 @@ const Navigationbar = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item href="/store">All Products</NavDropdown.Item> */}
             </NavDropdown>
-            <Nav.Link href="/about" >About</Nav.Link>
+            {/* <Nav.Link href="/about" >About</Nav.Link> */}
             <Nav.Link href="/care" >Shrimp Care</Nav.Link>
           </Nav>
         </Navbar.Collapse>

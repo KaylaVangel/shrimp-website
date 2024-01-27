@@ -16,9 +16,9 @@ function Care () {
          const {substrate, temperature, TDS, Water, pH, Kh, Gh} = data.parameters[type];
          return (
           <div className="paragraphFont" key={index}>
-            <br/>
-            {type.charAt(0).toUpperCase() + type.slice(1)}:
-            <br/>
+            <p>
+              {type.charAt(0).toUpperCase() + type.slice(1)}:
+            </p>
             Substrate: {substrate}
             <br/>
             Temperature: {temperature}
