@@ -9,7 +9,7 @@ export default function Slideshow() {
         };
       
         return (
-          <Carousel activeIndex={index} onSelect={handleSelect}>
+          <Carousel activeIndex={index} onSelect={handleSelect} interval={3000}>
             <Carousel.Item>
               <img
                 className="d-block w-100"
