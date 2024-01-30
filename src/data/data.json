@@ -2,7 +2,7 @@
   "products": {
     "shrimp": [
       {
-        "name": "Blue Bolt",
+        "name": "Blue Bolt (Caridina)",
         "description": "Blue",
         "quantity": 0,
         "parameters": {
@@ -22,7 +22,47 @@
         }
       },
       {
-        "name": "Golden Red Calceos",
+        "name": "Crystal Black Shrimp (Caridina)",
+        "description": "Black and white",
+        "quantity": 0,
+        "parameters": {
+          "Substrate": "Fluval plant and shrimp stratum",
+          "Temperature": "68°F-74°F",
+          "TDS": "~110",
+          "Water": "Distilled or RO water remineralized with SaltyShrimp Bee Shrimp Mineral GH+",
+          "pH": "5.5-6.7",
+          "Gh": "3-6",
+          "Kh": "0-1"
+        },
+        "image": { "src": "/images/CBS.jpg", "alt": "black and white shrimp" },
+        "moreInfo": {
+          "seller": "Kayla.vangel@comcast.net",
+          "availability": 20,
+          "cost": "$5"
+        }
+      },
+      {
+        "name": "Red Fancy Tigers (Caridina)",
+        "description": "Red",
+        "quantity": 0,
+        "parameters": {
+          "Substrate": "Fluval plant and shrimp stratum",
+          "Temperature": "68°F-74°F",
+          "TDS": "~110",
+          "Water": "Distilled or RO water remineralized with SaltyShrimp Bee Shrimp Mineral GH+",
+          "pH": "5.5-6.7",
+          "Gh": "3-6",
+          "Kh": "0-1"
+        },
+        "image": { "src": "/images/RFT.jpg", "alt": "Red shrimp" },
+        "moreInfo": {
+          "seller": "Kayla.vangel@comcast.net",
+          "availability": 20,
+          "cost": "$8"
+        }
+      },
+      {
+        "name": "Golden Red Calceos (Caridina)",
         "description": "Blue",
         "quantity": 0,
         "parameters": {
@@ -42,7 +82,7 @@
         }
       },
       {
-        "name": "OE Red Tiger Blue Body",
+        "name": "OE Red Tiger Blue Body (Caridina)",
         "description": "Blue",
         "quantity": 0,
         "parameters": {
@@ -62,7 +102,7 @@
         }
       },
       {
-        "name": "Dragon Blood",
+        "name": "Dragon Blood (Caridina)",
         "description": "Blue",
         "quantity": 0,
         "parameters": {
@@ -122,7 +162,7 @@
         }
       },
       {
-        "name": "Golden Bee",
+        "name": "Golden Bee (Caridina)",
         "description": "White/off-white",
         "quantity": 5,
         "parameters": {
@@ -142,7 +182,7 @@
         }
       },
       {
-        "name": "Crystal Red (CRS)",
+        "name": "Crystal Red (CRS) (Caridina)",
         "description": "Blue",
         "quantity": 20,
         "parameters": {
@@ -162,7 +202,7 @@
         }
       },
       {
-        "name": "Shadow Panda",
+        "name": "Shadow Panda (Caridina)",
         "description": "Blue",
         "quantity": 10,
         "parameters": {

@@ -7,7 +7,7 @@ const Navigationbar = () => {
   return (
     <Navbar expand="lg">
       <Container fluid>
-        <Nav.Link href="/" ><Navbar.Brand>Kayla&apos;s Cardinas</Navbar.Brand></Nav.Link>
+        <Nav.Link href="/" ><Navbar.Brand>Kayla&apos;s Caridinas</Navbar.Brand></Nav.Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
