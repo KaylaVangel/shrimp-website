@@ -222,7 +222,7 @@
         }
       },
       {
-        "name": "Paracaradina",
+        "name": "Paracaridina",
         "description": "Blue",
         "quantity": 10,
         "parameters": {
@@ -303,7 +303,7 @@
     ]
   },
   "parameters": {
-    "caradina": {
+    "Caridina": {
       "substrate": "Fluval plant and shrimp stratum",
       "temperature": "68°F-74°F",
       "TDS": "~110",
@@ -312,7 +312,7 @@
       "Gh": "3-6",
       "Kh": "0-1"
     },
-    "sulawesi": {
+    "Sulawesi": {
       "substrate": "Sand",
       "temperature": "79°F-85°F",
       "TDS": "110-145",
@@ -321,7 +321,7 @@
       "Gh": "4-8",
       "Kh": "3-6"
     },
-    "neocaradina": {
+    "Neocaridina": {
       "substrate": "Sand",
       "temperature": "68°F-78°F",
       "TDS": "170",
