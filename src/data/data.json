@@ -2,9 +2,9 @@
   "products": {
     "shrimp": [
       {
-        "name": "Blue Bolt (Caridina)",
+        "name": "Blue Bolt/Shadow Mosura (Caridina)",
         "description": "Blue",
-        "quantity": 0,
+        "quantity": 5,
         "parameters": {
           "Substrate": "Fluval plant and shrimp stratum",
           "Temperature": "68°F-74°F",
