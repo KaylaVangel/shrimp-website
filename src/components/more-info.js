@@ -15,7 +15,7 @@ function MoreInfo ({ product }) {
           <br/>
           Cost: {productInfo.cost}
           <br />
-          <a href="mailto:{productInfo.seller}">Contact</a>
+          <a href="mailto:Kvangel1638@gmail.com">Contact</a>
         </div>
       </>
     )
