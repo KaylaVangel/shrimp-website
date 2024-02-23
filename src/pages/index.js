@@ -17,7 +17,7 @@ export default function Home() {
           Unfortunately at this time we only offer local pickup.
         </p>
         <p>
-          This site was developed persoanlly by me after completing a coding bootcamp course. 
+          This site was developed personally by me after completing a coding bootcamp course. 
           Feel free to contact me with any constructive criticism.
         </p>
     </>
