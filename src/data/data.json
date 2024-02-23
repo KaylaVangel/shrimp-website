@@ -4,7 +4,7 @@
       {
         "name": "Blue Bolt/Shadow Mosura (Caridina)",
         "description": "Blue",
-        "quantity": 5,
+        "quantity": 0,
         "parameters": {
           "Substrate": "Fluval plant and shrimp stratum",
           "Temperature": "68°F-74°F",
@@ -16,8 +16,8 @@
         },
         "image": { "src": "/images/BB.jpg", "alt": "blue shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
-          "availability": 20,
+          "seller": "Kvangel1638@gmail.com",
+          "availability": 0,
           "cost": "$5"
         }
       },
@@ -36,8 +36,8 @@
         },
         "image": { "src": "/images/CBS.jpg", "alt": "black and white shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
-          "availability": 20,
+          "seller": "Kvangel1638@gmail.com",
+          "availability": 15,
           "cost": "$5"
         }
       },
@@ -56,7 +56,7 @@
         },
         "image": { "src": "/images/RFT.jpg", "alt": "Red shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$8"
         }
@@ -76,7 +76,7 @@
         },
         "image": { "src": "/images/calceostore.jpg", "alt": "calceo shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$8"
         }
@@ -96,7 +96,7 @@
         },
         "image": { "src": "/images/OEtiger.jpg", "alt": "OE tiger shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$8"
         }
@@ -116,7 +116,7 @@
         },
         "image": { "src": "/images/dragonblood.jpg", "alt": "OE tiger shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$10"
         }
@@ -136,7 +136,7 @@
         },
         "image": { "src": "/images/bluejelly.jpg", "alt": "bluejelly shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$4"
         }
@@ -144,7 +144,7 @@
       {
         "name": "Snowball (Neocaridina)",
         "description": "white",
-        "quantity": 0,
+        "quantity": 5,
         "parameters": {
           "Substrate": "Innert Substrate",
           "Temperature": "65°F-78°F",
@@ -156,7 +156,7 @@
         },
         "image": { "src": "/images/snowball.jpg", "alt": "bluejelly shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$4"
         }
@@ -164,7 +164,7 @@
       {
         "name": "Golden Bee (Caridina)",
         "description": "White/off-white",
-        "quantity": 5,
+        "quantity": 10,
         "parameters": {
           "Substrate": "Fluval plant and shrimp stratum",
           "Temperature": "68°F-74°F",
@@ -176,7 +176,7 @@
         },
         "image": { "src": "/images/goldenbee.jpg", "alt": "gold shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$5"
         }
@@ -196,7 +196,7 @@
         },
         "image": { "src": "/images/CRS.jpg", "alt": "crystal red shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$5"
         }
@@ -204,7 +204,7 @@
       {
         "name": "Shadow Panda (Caridina)",
         "description": "Blue",
-        "quantity": 10,
+        "quantity": 0,
         "parameters": {
           "Substrate": "Fluval plant and shrimp stratum",
           "Temperature": "68°F-74°F",
@@ -216,7 +216,7 @@
         },
         "image": { "src": "/images/shadowpanda.jpg", "alt": "black and white shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$5"
         }
@@ -224,7 +224,7 @@
       {
         "name": "Paracaridina",
         "description": "Blue",
-        "quantity": 10,
+        "quantity": 20,
         "parameters": {
           "Substrate": "Fluval plant and shrimp stratum",
           "Temperature": "68°F-74°F",
@@ -236,7 +236,7 @@
         },
         "image": { "src": "/images/paracaradina.jpg", "alt": "black and white shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$8"
         }
@@ -244,7 +244,7 @@
       {
         "name": "Sulawesi Cardinal Dennerli (white sock)",
         "description": "Red with white feet",
-        "quantity": 10,
+        "quantity": 20,
         "parameters": {
           "Substrate": "Innert Substrate",
           "Temperature": "80-85°F",
@@ -256,7 +256,7 @@
         },
         "image": { "src": "/images/sulawesistore.jpg", "alt": "sulawesi shrimp" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.net",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$10"
         }
@@ -273,7 +273,7 @@
         "description": "Cavey",
         "image": { "src": "/blue.jpg", "alt": "blue" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.nest",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$5"
         }
@@ -284,7 +284,7 @@
         "description": "Cavey",
         "image": { "src": "/blue.jpg", "alt": "blue" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.nest",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$5"
         }
@@ -295,7 +295,7 @@
         "description": "Cavey",
         "image": { "src": "/blue.jpg", "alt": "blue" },
         "moreInfo": {
-          "seller": "Kayla.vangel@comcast.nest",
+          "seller": "Kvangel1638@gmail.com",
           "availability": 20,
           "cost": "$5"
         }
